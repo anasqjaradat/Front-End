@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title>Move Box</title>
+  <style>
+    #box {
+      width: 100px;
+      height: 100px;
+      background-color: rgb(97, 8, 8);
+      position: relative;
+      left: 0px;
+      top: 0px;
+    }
+
+    .buttons {
+      margin-top: 20px;
+    }
+
+    button {
+      margin: 5px 10px;
+      padding: 10px 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="box"></div>
+
+  <div class="buttons">
+    <button onclick="moveLeft()">⬅️ Left</button>
+    <button onclick="moveRight()">Right ➡️</button>
+    <button onclick="moveUp()">Up ⬆️</button>
+    <button onclick="moveDown()">Down ⬇️</button>
+  </div>
+
+  <script>
+    const box = document.getElementById("box");
+    let positionX = 0;
+    let positionY = 0;
+
+    function moveRight() {
+      positionX += 10;
+      box.style.left = positionX + "px";
+    }
+
+    function moveLeft() {
+      positionX -= 10;
+      box.style.left = positionX + "px";
+    }
+
+    function moveUp() {
+      positionY -= 10;
+      box.style.top = positionY + "px";
+    }
+
+    function moveDown() {
+      positionY += 10;
+      box.style.top = positionY + "px";
+    }
+  </script>
+
+</body>
+</html>
