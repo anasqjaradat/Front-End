@@ -4,23 +4,30 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Home - Page</title>
+        <link rel="stylesheet" href="./css/index.css"></link>
+
     </head>
     <body>
           <!-- Title tag -->
-                Welcome
-            <h1>I'm h1</h1>
+            <p>Welcome</p>
+            <h1>I'm h1</h1>  
             <h2>I'm h2<h2>
-            <h3>I'm h3<h3>
+            <h3 class="m1">I'm h3<h3>
             <h4>I'm h4<h4>
             <h5>I'm h5<h5>
             <h6>I'm h6<h>
            <!-- p tag paragraph -->
           <p>I'm normal p tag</p>
            <!-- link -->
-           <a href="https://github.com/anasqjaradat/FrontEnd" target="_blank" >Go To My Github</a>
-           <img src="./img/html,cssandjs.jpg" width="300px"/>
-           <button>Click Me</button>
-            <!-- Unordered Lists -->
+            <div id="div">
+                <a id="github" href="https://github.com/anasqjaradat/Front-End" target="_blank" >Go To My Github</a>
+                <img src="./img/html,cssandjs.jpg" width="300px"/>
+                <button style="background-color: aqua; font-size: 20px; border-radius: 20px;">Click Me</button>
+                <div class="insidediv">
+                   <img src="./img/html,cssandjs.jpg" width="300px"/>
+                </div>
+            </div>
+           <!-- Unordered Lists -->
            <ul>
             <li>This is item 1</li>
             <li>This is item 2</li>
@@ -50,16 +57,23 @@
                 <tbody>
                     <tr>
                         <td>1</td>
-                        <td>intro</td>
+                        <td>INTRO</td>
                         <td>
-                            <a href="/Classes/class1.md">Link</a>
+                            <a class="bluelink" href="/Classes/class1.md">Link</a>
                         </td>
                     </tr>
                     <tr>
                         <td>2</td>
-                        <td>html</td>
+                        <td>HTML</td>
                         <td>
-                            <a href="/Classes/class2.md">Link</a>
+                            <a class="bluelink" href="/Classes/class2.md">Link</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>CSS</td>
+                        <td>
+                            <a class="bluelink" href="/Classes/class3.md">Link</a>
                         </td>
                     </tr>
                 </tbody>
@@ -78,6 +92,19 @@
               <input type="text" name="username" />
               <button type="submit">Submit</button>
             </form>
+
+        <!-- Grid -->
+        <div class="grid-container">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+        <div class="grid-item">7</div>
+        <div class="grid-item">8</div>
+        <div class="grid-item">9</div>
+  </div>
     </body>
 
 </html>

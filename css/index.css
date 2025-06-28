@@ -1,0 +1,85 @@
+            /* used for style the full tag  */
+            h1{
+                color: rgb(36, 207, 207);
+                font-size: 40px;
+            }
+            /* used for style the full tag  */
+            a{
+                color: rebeccapurple;
+                background-color: #9ad5ce;
+                font-size: small;
+                /*
+                border: 1px dotted red;
+                padding: 10px;
+                text-decoration: none;
+                */ 
+            }
+            /* id */ 
+            #github{
+                color: black;
+                font-size: 10px;
+                background-color: aliceblue;
+        
+            }
+            /* class */
+            .bluelink{
+                color: blue;
+                font-size: small;
+                background-color: aqua;
+            }
+            /* used to style several elemants with the same style  */
+            h2,h4{
+                color: rgb(119, 141, 0);
+                font-size: 40px;
+            }
+            /* Hover */
+            a:hover{
+                background-color: tomato;
+            }
+            #github:hover{
+                background-color: rgb(115, 246, 22);
+            }
+            p:hover{
+                background-color: aquamarine;
+                font-size: medium;
+            }
+            /* class 4 */
+            .m1 {
+                margin: auto;
+                width: 100px;
+                background-color: red;
+                border: 1px solid black;
+                border-radius: 20px;
+                text-align: center;
+
+            }
+
+
+            #div{
+                background-color: crimson;
+                height: 600;
+                margin: auto;
+                width: 600px;
+            }
+            #div img{
+                width: 100px;
+            }
+
+     .grid-container {
+      display: grid;
+      grid-template-columns: auto auto auto; 
+      grid-template-rows: 150px  150px 150px; 
+      gap: 20px;
+      padding: 20px;
+      background-color: #f0f0f0;
+    }
+
+    .grid-item {
+      background-color: #4CAF50;
+      color: white;
+      font-size: 24px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 8px;
+    }
