@@ -1,0 +1,73 @@
+/* Navigation Bar */
+#navBar {
+  background-color: rgb(213, 215, 215);
+  padding: 10px;
+  border-bottom: 1px solid #ffffff;
+}
+
+#navBar ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+#navBar li {
+  display: inline;
+  margin-right: 10px;
+}
+#navBar a {
+text-decoration: none;
+color: aliceblue;
+font-weight: bold;
+font-size: 20px;
+}
+#navBar a:hover {
+
+color: rgb(28, 75, 116);
+
+}
+#zIndex {
+  position: relative;
+  margin-top: 20px;
+}
+
+#AnyQuestions {
+  width: 300px;
+  height: auto;
+  float: left;
+  margin-right: 15px;
+}
+
+#ja {
+  background-color: black;
+  color: white;
+  width: fit-content;
+  padding: 5px 10px;
+  float: right;
+  margin-top: 90px;
+}
+
+#main ul{
+list-style-type: none;
+  padding: 20px;
+}
+
+#checkAbsolute {
+  width: 400px;
+  height: 400px;
+  border: 1px solid #000;
+  position: relative;
+}
+
+#Top {
+  background-color: aquamarine;
+  position: absolute;
+  top: 1px;
+  left: 350px;
+}
+
+#Bottom {
+  background-color: rgb(24, 194, 137);
+  position: absolute;
+  top: 398px;
+  left: 50px;
+}
